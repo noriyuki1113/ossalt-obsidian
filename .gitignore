@@ -1,0 +1,35 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Obsidian — ワークスペース状態は個人環境に依存するため除外
+# .obsidian/ は意図的に除外しない（設定の一部を同期したい場合があるため）
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Obsidian プラグインキャッシュ
+.obsidian/plugins/obsidian-git/.gitignore
+
+# Node / npm（将来的なスクリプトに備えて）
+node_modules/
+npm-debug.log*
+
+# 一時ファイル
+*.tmp
+*.bak
+*.swp
+*~
+
+# エディタ
+.vscode/
+.idea/
+
+# ビルド成果物
+dist/
+.cache/
+
+# 環境変数（秘密情報）
+.env
+.env.local
+.env.*.local
