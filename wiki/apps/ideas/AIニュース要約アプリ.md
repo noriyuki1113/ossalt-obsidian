@@ -98,6 +98,7 @@ LLM:            Claude API（claude-haiku-4-5）
 
 ## 関連リンク
 
+- [MVP設計ノート](../mvp/AIニュース要約アプリ MVP.md)
 - [wiki/apps/_index.md](../_index.md)
 - [wiki/ai-news/_index.md](../../ai-news/_index.md)
 - [wiki/systems/lovable/Lovable完全プロンプト設計](../../systems/lovable/Lovable完全プロンプト設計.md)

@@ -14,6 +14,19 @@ ossalt.jp のコンテンツとして使える形（簡潔・比較明確・実�
 
 ---
 
+## カテゴリ別インデックス
+
+| カテゴリ | 代表OSS | 代替対象 |
+|---|---|---|
+| [アナリティクス](./categories/analytics.md) | Umami, Plausible | Google Analytics |
+| [プロジェクト管理](./categories/project-management.md) | Plane | Jira, Linear |
+| [CMS](./categories/cms.md) | Strapi, Directus, Ghost | Contentful, Sanity |
+| [CRM](./categories/crm.md) | Twenty, Mautic | HubSpot, Salesforce |
+| [フォーム・アンケート](./categories/form-survey.md) | Formbricks, Typebot | Typeform |
+| [モニタリング](./categories/monitoring.md) | Uptime Kuma, Grafana | Datadog, Pingdom |
+
+---
+
 ## ツール別ノート
 
 ### プロジェクト管理・ワークスペース
@@ -26,26 +39,10 @@ ossalt.jp のコンテンツとして使える形（簡潔・比較明確・実�
 ### 追加予定スロット
 - `Formbricks.md` — Typeform 代替
 - `Plausible.md` — GA 代替（軽量版）
-- `Mattermost.md` — Slack 代替
-- `Gitea.md` — GitHub 代替（セルフホスト）
+- `Ghost.md` — ニュースレター × ブログ
 - `n8n.md` — Zapier 代替
-- `Chatwoot.md` — Intercom 代替
-
----
-
-## カテゴリ別インデックス
-
-> `wiki/ossalt/categories/` 以下に作成予定
-
-主要カテゴリ（追加予定）:
-- プロジェクト管理
-- アナリティクス
-- CMS
-- フォーム
-- メール配信
-- チャット・コミュニケーション
-- 認証・ID管理
-- データベース・BaaS
+- `Twenty.md` — HubSpot 代替
+- `Uptime Kuma.md` — Pingdom 代替
 
 ---
 

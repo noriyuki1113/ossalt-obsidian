@@ -16,10 +16,9 @@ AI駆動のフロントエンド生成ツール。プロンプト設計が成果
 ### Supabase
 PostgreSQL ベースの BaaS。Auth・Storage・Edge Functions を包括。
 
-> `wiki/systems/supabase/` 追加予定
-> - RLS パターン集
-> - Auth フロー設計
-> - Edge Functions ユースケース
+- [RLSパターン集](./supabase/RLSパターン集.md)
+- 追加予定: `Auth フロー設計.md`
+- 追加予定: `Edge Functions ユースケース.md`
 
 ### Stripe
 決済・サブスクリプション・メータリング。
@@ -40,9 +39,7 @@ PostgreSQL ベースの BaaS。Auth・Storage・Edge Functions を包括。
 ### Obsidian
 このボルト自体の設定・プラグイン・ワークフロー。
 
-> `wiki/systems/obsidian/` 追加予定
-> - 推奨プラグイン設定
-> - Git 連携ワークフロー
+- [Obsidian Git設定](./obsidian/Obsidian Git設定.md)
 
 ---
 

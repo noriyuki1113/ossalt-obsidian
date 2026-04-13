@@ -8,51 +8,53 @@
 
 ## 今週のフォーカス
 
-1. **Obsidian ボルト初期セットアップ** — このボルト自体の構造整備
-2. **ossalt.jp コンテンツ拡充** — OSSツール評価ノートを週3件ペースで追加
-3. **AIニュース要約アプリ** — MVP 設計を固め、Lovable で試作する
+1. **AIニュース要約アプリ** — MVP 設計完了。次は LP 作成 → 事前登録50人
+2. **ossalt.jp カテゴリ整備** — 6カテゴリ完了。ツールノートを各カテゴリに追加する
+3. **Supabase 実装パターン** — RLS 完了。次は Auth フロー設計・Edge Functions
 
 ---
 
 ## 進行中のプロジェクト
 
-### ossalt.jp
-- OSS代替ツールのキュレーションサイト
-- 現状: ボルトに3件（AppFlowy・Plane・Umami）追加済み
-- 次: カテゴリ別インデックスの整備
-
 ### AIニュース要約アプリ
-- 問題: AIニュースが多すぎて追えない
-- アイデア: 毎朝メールで重要トピックを3件届ける
-- 状態: アイデアノート作成済み → MVP 設計に移行したい
-- 参照: [AIニュース要約アプリ](./apps/ideas/AIニュース要約アプリ.md)
-
-### Lovable 実装パターン整備
-- 状態: プロンプト設計ガイド作成済み
+- 状態: MVP 設計完了 ✓
+- 参照: [MVP設計ノート](./apps/mvp/AIニュース要約アプリ MVP.md)
+- 次: Lovable で LP を生成し事前登録ページを作る
 - 参照: [Lovable完全プロンプト設計](./systems/lovable/Lovable完全プロンプト設計.md)
+
+### ossalt.jp コンテンツ
+- カテゴリノート6件完了 ✓（analytics / project-management / cms / crm / form-survey / monitoring）
+- ツールノート3件（AppFlowy / Plane / Umami）
+- 次: 各カテゴリの代表ツールを1件ずつノート化する
+
+### 実装ナレッジ整備
+- Supabase RLS パターン集完了 ✓
+- Obsidian Git 設定ガイド完了 ✓
+- 次: Stripe Webhook パターン、Edge Functions ユースケース
 
 ---
 
 ## 今週のオポチュニティ
 
-- OSS代替ツールの「日本語対応度」という切り口が ossalt.jp で差別化になりそう
-- AIニュース要約 × 日本語 × インディーハッカー向けというニッチは競合が少ない
-- Lovable の普及で「プロンプトで設計する」スキルの需要が急上昇
+- AIニュース要約 × 日本語 × インディーハッカー向けはまだ競合が薄い
+- OSS代替ツールの「日本語対応度」切り口が ossalt.jp 差別化になる
+- Uptime Kuma / Ghost などカテゴリ代表ツールのノートはすぐ書けて価値が高い
 
 ---
 
 ## 次のアクション
 
-- [ ] wiki/ossalt/categories/ に主要カテゴリノートを作る
-- [ ] AIニュース要約アプリの MVP ノートを作る（`_templates/app-idea.md` を使う）
-- [ ] Supabase の実装パターンノートを1件追加する
-- [ ] wiki/hot.md を来週更新する
+- [ ] Lovable で AIニュース要約アプリの LP を生成する
+- [ ] Uptime Kuma ツールノートを作成（monitoring カテゴリの代表ツール）
+- [ ] Ghost ツールノートを作成（cms カテゴリ）
+- [ ] Stripe Webhook ハンドリングパターンノートを作成
 
 ---
 
 ## 最近の判断ログ
 
-- **2026-04-13**: Obsidian + Git + Claude Code の三位一体構成を採用。チャットを知識資産に変えるフローを確立する。
+- **2026-04-13**: Obsidian + Git + Claude Code の三位一体構成を採用
+- **2026-04-13**: ossalt.jp の6カテゴリ構造を確定。ツール → カテゴリの2層構造で管理する
 
 ---
 
